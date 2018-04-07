@@ -8888,9 +8888,12 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .text-muted {
-  color: #6c757d !important;
+  color: #f0ead6 !important;
 }
 
+.section-subheading .text-muted {
+  color: #f0ead6 !important;
+}
 .text-hide {
   font: 0/0 a;
   color: transparent;

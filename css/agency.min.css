@@ -190,8 +190,10 @@ header.masthead .intro-text {
 }
 
 header.masthead .intro-text .intro-lead-in {
-  font-size: 22px;
-  font-style: italic;
+ font-weight: 700;
+ font-size: 60px;
+ font-style: normal;
+ font-family: Montserrat;
   line-height: 22px;
   margin-bottom: 25px;
   font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif
@@ -211,11 +213,19 @@ header.masthead .intro-text .intro-heading {
     padding-bottom: 200px
   }
   header.masthead .intro-text .intro-lead-in {
-    font-size: 40px;
-    font-style: italic;
+   font-weight: 700;
+   font-size: 60px;
+   font-style: normal;
+   font-family: Montserrat,
+   'Helvetica Neue',
+   Helvetica,
+   Arial,
+   sans-serif;
+
+
     line-height: 40px;
     margin-bottom: 25px;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif
+
   }
   header.masthead .intro-text .intro-heading {
     font-size: 75px;
@@ -596,8 +606,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url(../img/map-image.png);
+  background-color: #429EE3;
   background-repeat: no-repeat;
   background-position: center
 }
@@ -655,6 +664,11 @@ section#contact :-ms-input-placeholder {
 footer {
   padding: 25px 0;
   text-align: center
+}
+
+.sub-text {
+  font-weight: 500;
+  font-style: italic;
 }
 
 footer span.copyright {
